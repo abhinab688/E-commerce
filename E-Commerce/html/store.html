@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Store</title>
+    <link rel="stylesheet" href="/E-Commerce/css/style.css">
+    <link rel="stylesheet" href="/E-Commerce/css/store.css"
+</head>
+<body>
+    <div id="Ecommerce-container">
+        <header>
+            <ul>
+                <li> <a href="/E-Commerce/html/home.html">Home</a></li>
+                <li> <a href="/E-Commerce/html/store.html">Store</a></li>
+                <li> <a href="/E-Commerce/html/about.html">About</a></li>   
+                <a href="#cart" class="cart-holder">Cart 
+                    <span class="cart-number">0</span>
+                </a>     
+            </ul>
+                <h1>Urban Trendz</h1>
+        </header>
+        <section class="container">
+            <h2>Products</h2>
+            <div class="product-list">
+                <div class="product-1" id="product-1">
+                    <h4>Product 1</h4>
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1666811089953-f948eb26502e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80" alt="Bostu 1">
+                    </div>
+                    <div class="product-detail">
+                        <span>1200 Rs</span>
+                        <button class="add-to-cart"> Add to cart</button>
+                    </div>
+                </div>
+                <div class="product-2" id="product-2">
+                    <h4>Product 2</h4>
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1666811089953-f948eb26502e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80" alt="Bostu 1">
+                    </div>
+                    <div class="product-detail">
+                        <span>1400 Rs</span>
+                        <button class="add-to-cart"> Add to cart</button>
+                    </div>
+                </div>
+                <div class="product-3" id="product-3">
+                    <h4>Product 3</h4>
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1666811089953-f948eb26502e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80" alt="Bostu 1">
+                    </div>
+                    <div class="product-detail">
+                        <span>1600 Rs</span>
+                        <button class="add-to-cart"> Add to cart</button>
+                    </div>
+                </div>
+                <div class="product-4" id="product-4">
+                    <h4>Product 4</h4>
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1666811089953-f948eb26502e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80" alt="Bostu 1">
+                    </div>
+                    <div class="product-detail">
+                        <span>1800 Rs</span>
+                        <button class="add-to-cart"> Add to cart</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="cart" class="cart-container" style="display: none;">
+            <h2>Cart</h2>
+            <button class="cancel" id="cancel">X</button>
+            <div class="cart-header">
+                <span class="cart-item">Item</span>
+                <span class="cart-price">Price</span>
+                <span class="cart-quantity">Quantity</span>
+            </div>
+            <div class="cart-items" id="cart-items">
+
+            </div>
+            <div class="cart-total">
+                <span>
+                    <span class="total-title">
+                        <strong>Total</strong>
+                    </span>
+                    RS
+                    <span class="total-value" id="total-value">0</span>
+                </span>
+            </div>
+            <button class="purchase-buton" type="button">Purchase</button>
+        </section>
+        <button class="cart-btn-bottom" id="cartBtn">
+            <a href="#cart" class="cart-bottom" >See my cart</a>
+        </button>
+    </div>
+    <div class="notification-container">
+
+    </div>
+    <footer>
+        <div class="footer-title">Urban Trendz</div>
+        <div class="footer-icon">
+            <ul>
+                <li><a href="https://www.youtube.com/"><img src="https://i.pinimg.com/originals/62/60/ef/6260efc8fc9a9002669d2f4ad9956cc0.jpg"></a></li>
+                <li><a href="https://www.facebook.com/"><img src="https://cdn-icons-png.flaticon.com/512/124/124010.png"></a></li>
+                <li><a href="https://www.instagram.com/"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/2048px-Instagram_icon.png"></a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+<script src="/E-Commerce/script.js" defer></script>
+</html>
